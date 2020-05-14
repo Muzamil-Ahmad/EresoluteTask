@@ -1,0 +1,189 @@
+{
+	"id": "158c6ba9-ee87-73ba-a5c5-18ae006267b1",
+	"name": "apiCollection",
+	"description": "",
+	"order": [
+		"a87a9656-9c65-6222-f824-cb9517c665d5",
+		"7881e778-f7a7-d5b5-be79-0cc96212472f",
+		"a230b458-cd64-a0d6-c587-1dcdab9f0e5c",
+		"6c275dfd-618b-00ac-9bcb-10bab21b12e9",
+		"7885e271-d026-d934-c689-c5ce51e753c6"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1588913387252,
+	"owner": "10968923",
+	"public": false,
+	"requests": [
+		{
+			"id": "6c275dfd-618b-00ac-9bcb-10bab21b12e9",
+			"headers": "Content-Type: application/json\nx-auth-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE1ODk0NDk0MjJ9.3MdAPe4rCSKropEewUg7sdcRCK0M2O50xyXjAeIVjFI\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "x-auth-token",
+					"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE1ODk0NDk0MjJ9.3MdAPe4rCSKropEewUg7sdcRCK0M2O50xyXjAeIVjFI",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:4000/api/users/48",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "158c6ba9-ee87-73ba-a5c5-18ae006267b1",
+			"data": [],
+			"dataMode": "raw",
+			"name": "UpdateUserStatus",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1589451982804,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\"status\":1\n}"
+		},
+		{
+			"id": "7881e778-f7a7-d5b5-be79-0cc96212472f",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:4000/api/signin",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1589444667035,
+			"name": "User Signin",
+			"description": "",
+			"collectionId": "158c6ba9-ee87-73ba-a5c5-18ae006267b1",
+			"responses": [],
+			"rawModeData": "{\n\"username\":\"Aarreeb\",\n\"password\" : \"12345\"\n}"
+		},
+		{
+			"id": "7885e271-d026-d934-c689-c5ce51e753c6",
+			"headers": "Content-Type: application/json\nx-auth-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE1ODk0NTM5NzV9.OoDIVewxHb7sLv4LI-KFrFyXxGckTdPdIsVZBC2K3XQ\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "x-auth-token",
+					"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE1ODk0NTM5NzV9.OoDIVewxHb7sLv4LI-KFrFyXxGckTdPdIsVZBC2K3XQ",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:4000/api/users/48",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "158c6ba9-ee87-73ba-a5c5-18ae006267b1",
+			"data": [],
+			"dataMode": "raw",
+			"name": "updateUserDetails",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1589454177738,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\"username\":\"Muzamil Ahmad\",\n\"password\" : \"12345\"\n}"
+		},
+		{
+			"id": "a230b458-cd64-a0d6-c587-1dcdab9f0e5c",
+			"headers": "Content-Type: application/json\nx-auth-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE1ODk0NTM5NzV9.OoDIVewxHb7sLv4LI-KFrFyXxGckTdPdIsVZBC2K3XQ\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "x-auth-token",
+					"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE1ODk0NTM5NzV9.OoDIVewxHb7sLv4LI-KFrFyXxGckTdPdIsVZBC2K3XQ",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:4000/api/users",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1589454129568,
+			"name": "getAllUsers",
+			"description": "",
+			"collectionId": "158c6ba9-ee87-73ba-a5c5-18ae006267b1",
+			"responses": [],
+			"rawModeData": "{\n\"username\":\"Muzamil Ahmad\",\n\"password\" : \"12345\"\n}"
+		},
+		{
+			"id": "a87a9656-9c65-6222-f824-cb9517c665d5",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:4000/api/signup",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1589389629591,
+			"name": "User Registration",
+			"description": "",
+			"collectionId": "158c6ba9-ee87-73ba-a5c5-18ae006267b1",
+			"responses": [],
+			"rawModeData": "{\n\"username\":\"Aarreeba\",\n\"password\" : \"12345\"\n\"role\":\"admin\"\n}"
+		}
+	]
+}
