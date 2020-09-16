@@ -12,7 +12,7 @@ There is a database involved so i have used mysql database to store the data!
 Download or clone this repo.
 Run npm install
 Download eresoluteDb.sql file and import it in mysql.
-Run node index.js
+Run node server.js
 Download api collection and use it.
 
 Its just a free time project which i did for learning purpose :)
