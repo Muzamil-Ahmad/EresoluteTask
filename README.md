@@ -1,7 +1,5 @@
 Nodejs-Login-Module
-A simple chat system written in NodeJS using Sockets and Connect
-
-#Dependencies:
+A simple simple Register and login app written in NodeJS using express framework!
 
 #How it works?
 
